@@ -1,0 +1,9 @@
+<h1>Boards</h1>
+<div class="list-group">
+<% boards.each(function(board) { %>
+  <a href="#boards/<%= board.id %>" class="list-group-item">
+    <h4><%= board.escape('title') %></h4>
+  </a>
+
+<% }) %>
+</div>

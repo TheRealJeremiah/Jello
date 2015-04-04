@@ -15,3 +15,42 @@
 
 @import "bootstrap";
 @import "font-awesome";
+
+#main {
+  display: block;
+  margin:auto;
+  width: 900px;
+}
+.board-item button{
+  float: right;
+}
+
+.board-show-subheader h1{
+  float: left;
+  margin-top: 0px;
+}
+
+.board-show-subheader a {
+  float: right;
+  margin-top: 0px;
+}
+
+.in-page-form {
+  display:block;
+}
+
+.boardList {
+  margin-right: 2%;
+  width: 32%;
+  float:left;
+}
+
+.boardList:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
