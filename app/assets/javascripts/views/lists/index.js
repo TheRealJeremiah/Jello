@@ -4,7 +4,6 @@ TrelloClone.Views.ListIndex = Backbone.View.extend({
   className: 'listIndex group',
   initialize: function () {
     this.listenTo(this.collection, 'sync remove', this.render);
-    this.collection.fetch()
   },
   render: function () {
     // var content = this.template();

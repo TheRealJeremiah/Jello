@@ -19,8 +19,42 @@
 #main {
   display: block;
   margin:auto;
-  width: 900px;
+  // width: 900px;
 }
+
+body {
+  background-color: #0E74AF;
+  color: #FFF;
+}
+
+.list-card {
+  color: #4E4E4E;
+  background-color: #fff;
+  display: block;
+  border-radius: 3px;
+  margin-bottom: 6px;
+  padding: 5px 10px;
+  position: relative;
+  border-bottom: thin solid #ccc;
+}
+
+.list-card:hover {
+  background-color: #F2F4F6;
+}
+
+.list-card button {
+  float: right;
+}
+
+.list-cards {
+  background-color: #E2E4E6;
+}
+
+.board-item {
+  color: #4E4E4E;
+  background-color: #E2E4E6;
+}
+
 .board-item button{
   float: right;
 }

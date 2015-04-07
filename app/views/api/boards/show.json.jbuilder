@@ -15,4 +15,14 @@ json.lists @board.lists do |list|
   json.ord list.ord
   json.created_at list.created_at
   json.updated_at list.updated_at
+
+  json.cards list.cards do |card|
+    json.id card.id
+    json.title card.title
+    json.list_id card.list_id
+    json.description card.description
+    json.ord card.ord
+    json.created_at card.created_at
+    json.updated_at card.updated_at
+  end
 end
